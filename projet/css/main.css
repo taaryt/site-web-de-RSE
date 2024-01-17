@@ -1,0 +1,112 @@
+.box, .second-box{
+    width: 75%;
+    height: 100%;
+    min-height: 524px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+/* .box{
+    background-image: url("../images/mainImage.jpg");
+    animation: imageTransition infinite alternate;
+} */
+
+.center .box img {
+    max-height: 85%;
+    width: auto;            /* 1440 px */
+    position: absolute;
+    z-index: -1;
+    bottom: 35px;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+   
+
+}
+
+
+
+/* @keyframes imageTransition{
+    0% {
+        background-image: url("../images/mainImage.jpg");   
+    }
+    100% {
+        background-image: url("../images/");
+    }
+} */
+
+/* .second-box{
+    background-image: url("../images/locaux\ Adobe.jpg");
+} */
+
+.center .second-box img {
+    flex: 0 0 auto;
+    max-height: 90%;
+    width: auto;       /* 1440 px */
+    position: absolute;
+    z-index: -1;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+}
+
+.card-text {
+    width: 90%;
+    display: inline;
+}
+.card-text h1{
+    color: #fff;
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+.second-box h1 {
+    color: #fff;
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+
+.card-text, .second-card-text {
+    height: auto;
+    border-radius: 20px;
+    
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-weight: 800px;
+    line-height: normal;
+    text-align: center;
+}
+
+.card-text .container-text-welcome p{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    width: 60%;
+
+}
+
+.card-text h1{
+    color: #ec0f0f;
+    font-size: 136px;
+}
+
+
+.second-card-text {
+    width: 30%;
+    background-color: #3E3939A1;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    margin-left: 2%;
+}
+

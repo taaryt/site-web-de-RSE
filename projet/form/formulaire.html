@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" href="../images/logo Adoobe Transporrt.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <title>Adoobe Transporrt</title>
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav">
+            <a href="http://adobe.com" target="_blank"><img src="../images/logo-adobe.png" alt="adobe logo"></a>
+            <a href="../index.html">Accueil</a>
+            <a href="../stats.html">Statistique</a>
+            <a href="../form/formulaire.html">Formulaires</a>
+            <a href="../contact.html">Contacts</a>
+        </div>
+    </nav>
+
+    <div class="entete-form">
+        <h2>Bienvenue dans la phase de remplissage de votre formulaire ! <br>
+            Pour vous permettre de participer à cette initiative,<br>on vous demande poliment de suivre les etapes suivantes:
+        </h2>
+    </div>
+
+    <main>
+        <div class="form-container">
+            <form method="post" action="thxVoiture.html">
+                <div class="center">
+                    <h2>Formulaire Conducteur</h2>
+                </div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+        
+        
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="nom" name="prenom" required>
+        
+        
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+        
+        
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" name="adresse"  placeholder="n° de voie, code postale, ville " required>
+        
+        
+                <label for="nombre_personnes">Nombre de places disponibles :</label>
+                <input type="number" id="nombre_personnes" name="nombre_personnes" required min="1" max="4">
+        
+        
+                <label>Choisissez un horaire de travaille :</label>
+                <div class="scrollable">
+                    <select id="horaire" name="horaire" required>
+                        <option value="08:00">08:00</option>
+                        <option value="12:00">08:30</option>
+                        <option value="18:00">09:00</option>
+                        <option value="20:00">09:30</option>
+                        <option value="22:00">10:00</option>
+                    </select>
+                </div>    
+                <input type="submit" value="Valider">
+            </form>
+    
+            <form method="post" action="tableau.html">
+                <div class="center">
+                    <h2>Formulaire Passager</h2>
+                </div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+        
+        
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+        
+        
+                <label for="email" inputmode="ma">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com"  required>
+        
+        
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" name="adresse" placeholder="n° de voie, code postale, ville " required>
+                
+            
+                    <label for="start">Choisissez la date:</label>
+
+                    <input type="date" id="start" name="trip-start" value="2024-01-01" min="2024-01-01" max="2025-12-31" />
+                </select>
+
+
+
+                <label>Choisissez un horaire travaille :</label>
+                <div class="scrollable">
+                    <select id="horaire" name="horaire" required>
+                        <option value="08:00">08:00</option>
+                        <option value="12:00">08:30</option>
+                        <option value="18:00">09:00</option>
+                        <option value="20:00">09:30</option>
+                        <option value="22:00">10:00</option>
+                    </select>
+                </div>
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="links">
+            <a href="http://adobe.com" target="_blank"><img src="../images/logo-adobe.png" alt="adobe logo"></a> © 2023. Tous droits réservés. 
+            <a href="https://www.adobe.com/fr/legal/terms.html" target="_blank">Conditions d'utilisation</a> - 
+            <a href="https://www.adobe.com/fr/privacy/policy.html" target="_blank">Politique de confidentialité</a> - 
+            <a href="" target="_blank">Conditions Générales de Vente</a> - 
+            <a href="" target="_blank">Mentions Légales</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

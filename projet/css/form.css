@@ -1,0 +1,151 @@
+.big-text-center{
+    font-size: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60%; /* largeur obligatoire pour être centré */
+    text-align: center;
+}
+
+.big-text-center p, .big-italic-text-center p{
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .big-text-center{
+        font-size: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 60%; /* largeur obligatoire pour être centré */
+        text-align: center;
+    }
+
+    table {
+        margin-top: 100px;
+        border-collapse: collapse;
+        width: 70%;
+        font-size: 0.85em;
+    }
+    tr, th{
+        padding: 10px;
+    }
+    
+}
+
+
+.entete-form{
+    margin-top: 50px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .big-text-center{
+        font-size: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 60%; /* largeur obligatoire pour être centré */
+        text-align: center;
+    }
+
+    table {
+        margin-top: 100px;
+        border-collapse: collapse;
+        width: 50%;
+        font-size: 0.5em;
+    }
+    tr, th{
+        padding: 5px;
+    }
+}
+
+
+table {
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 90%;
+}
+table, tr, th {
+	border: thin solid #854d1d;
+    color: rgb(8, 8, 8);
+    
+}
+tr, th{
+    padding: 15px;
+}
+
+table thead tr th{
+    background-color: #191d1c;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+
+
+/* Style pour le formulaire */
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.scrollable {
+    max-height: 100px;
+}
+
+footer{
+    margin-top: 150px;
+    
+}
